@@ -1,0 +1,86 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Sobre o curso
+
+O objetivo da parte 1 do curso de Introdução à pesquisa Jurimétrica é apresentar e discutir a aplicação de métodos quantitativos no Direito. A ideia do curso é tratar dos limites de aplicação e elementos básicos de pesquisa quantitativa, com aplicações em temas do Direito.
+
+```{r}
+#| echo: FALSE
+fs::dir_ls("materiais/m1/slides", glob = "*.html") |> 
+  tibble::enframe() |> 
+  dplyr::filter(
+    stringr::str_detect(name, "a[0-9]{2}")
+  ) |> 
+  dplyr::transmute(
+    aula = stringr::str_extract(value, "(?<=_)[a-z_A-Z]+"),
+    slide = glue::glue("[{aula}](https://abjur.github.io/curso_intro_jurimetria/{name})")
+  ) |> 
+  knitr::kable()
+```
+
+Os slides serão atualizados conforme o curso vai acontecendo.
+
+## Informações importantes
+
+- Livro: [https://livro.abj.org.br](https://livro.abj.org.br)
+
+- Blog: [https://lab.abj.org.br](https://lab.abj.org.br)
+
+- Fórum: [https://forum.abj.org.br](https://forum.abj.org.br)
+
+
+## Material extra
+
+Referências extras comentadas nas aulas.
+
+```{r}
+#| message: false
+#| echo: false
+tibble::tibble(
+  nome = c(
+    "Case ABJ - Varas empresariais", 
+    "Pesquisas realizadas pelo Departamento de Pesquisas Judiciárias (DPJ) do CNJ", 
+    "Tese do Marcelo Guedes Nunes", 
+    "Lee Loevinger (1949)",
+    "Lee Loevinger (1961)",
+    "Lee Loevinger (1963)",
+    "Society for Empirical Legal Studie (SELS)",
+    "Case ABJ - Drogas", 
+    "Cases ABJ", 
+    "Bases de dados da ABJ utilizado no curso", 
+    "Cursos sobre R", 
+    "Exemplo de Dashboard (Observatório da Litigiosidade)", 
+    "Materiais de web scraping",
+    "Priest & Klein (1984)"
+  ),
+  links = c(
+    "https://abj.org.br/pesquisas/varas-empresariais/",
+    "https://www.cnj.jus.br/pesquisas-judiciarias/",
+    "https://tede2.pucsp.br/handle/handle/5978",
+    "https://core.ac.uk/download/pdf/217207244.pdf",
+    "https://core.ac.uk/download/217207250.pdf",
+    "https://scholarship.law.duke.edu/lcp/vol28/iss1/2/",
+    "https://community.lawschool.cornell.edu/sels/",
+    "https://abj.org.br/pesquisas/drogas-stf/",
+    "https://abj.org.br/pesquisas/",
+    "https://github.com/abjur/abjData",
+    "https://loja.curso-r.com/",
+    "https://abjur.shinyapps.io/obsCIEE",
+    "https://curso-r.github.io/main-web-scraping/",
+    "https://www.rand.org/content/dam/rand/pubs/reports/2006/R3032.pdf"
+  )
+) |> 
+  knitr::kable()
+```
+
