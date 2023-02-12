@@ -29,7 +29,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_PAT }}
+          token: ${{ secrets.PAGES_PAT }}
           submodules: true
       - name: Setup Pages
         uses: actions/configure-pages@v2
