@@ -1,5 +1,7 @@
 ---
 output: github_document
+params:
+  repo: "202211-ipj-m1"
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -24,7 +26,7 @@ fs::dir_ls("materiais/m1/slides", glob = "*.html") |>
   ) |> 
   dplyr::transmute(
     aula = stringr::str_extract(value, "(?<=_)[a-z_A-Z]+"),
-    slide = glue::glue("[{aula}](https://abjur.github.io/curso_intro_jurimetria/{name})")
+    slide = glue::glue("[{aula}](https://abjur.github.io/{params$repo}/{name})")
   ) |> 
   knitr::kable()
 ```

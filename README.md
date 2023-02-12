@@ -8,16 +8,16 @@ apresentar e discutir a aplicação de métodos quantitativos no Direito. A
 ideia do curso é tratar dos limites de aplicação e elementos básicos de
 pesquisa quantitativa, com aplicações em temas do Direito.
 
-| aula                 | slide                                                                                                                    |
-|:---------------------|:-------------------------------------------------------------------------------------------------------------------------|
-| introducao           | [introducao](https://abjur.github.io/curso_intro_jurimetria/materiais/m1/slides/a00_introducao.html)                     |
-| operacionalizacao    | [operacionalizacao](https://abjur.github.io/curso_intro_jurimetria/materiais/m1/slides/a01_operacionalizacao.html)       |
-| escopo               | [escopo](https://abjur.github.io/curso_intro_jurimetria/materiais/m1/slides/a02_escopo.html)                             |
-| tipos_variaveis      | [tipos_variaveis](https://abjur.github.io/curso_intro_jurimetria/materiais/m1/slides/a03_tipos_variaveis.html)           |
-| tabela_frequencia    | [tabela_frequencia](https://abjur.github.io/curso_intro_jurimetria/materiais/m1/slides/a04_tabela_frequencia.html)       |
-| medidas_centro       | [medidas_centro](https://abjur.github.io/curso_intro_jurimetria/materiais/m1/slides/a05_medidas_centro.html)             |
-| medidas_dispersao_I  | [medidas_dispersao_I](https://abjur.github.io/curso_intro_jurimetria/materiais/m1/slides/a06_medidas_dispersao_I.html)   |
-| medidas_dispersao_II | [medidas_dispersao_II](https://abjur.github.io/curso_intro_jurimetria/materiais/m1/slides/a07_medidas_dispersao_II.html) |
+| aula                 | slide                                                                                                           |
+|:---------------------|:----------------------------------------------------------------------------------------------------------------|
+| introducao           | [introducao](https://abjur.github.io/202211-ipj-m1/materiais/m1/slides/a00_introducao.html)                     |
+| operacionalizacao    | [operacionalizacao](https://abjur.github.io/202211-ipj-m1/materiais/m1/slides/a01_operacionalizacao.html)       |
+| escopo               | [escopo](https://abjur.github.io/202211-ipj-m1/materiais/m1/slides/a02_escopo.html)                             |
+| tipos_variaveis      | [tipos_variaveis](https://abjur.github.io/202211-ipj-m1/materiais/m1/slides/a03_tipos_variaveis.html)           |
+| tabela_frequencia    | [tabela_frequencia](https://abjur.github.io/202211-ipj-m1/materiais/m1/slides/a04_tabela_frequencia.html)       |
+| medidas_centro       | [medidas_centro](https://abjur.github.io/202211-ipj-m1/materiais/m1/slides/a05_medidas_centro.html)             |
+| medidas_dispersao_I  | [medidas_dispersao_I](https://abjur.github.io/202211-ipj-m1/materiais/m1/slides/a06_medidas_dispersao_I.html)   |
+| medidas_dispersao_II | [medidas_dispersao_II](https://abjur.github.io/202211-ipj-m1/materiais/m1/slides/a07_medidas_dispersao_II.html) |
 
 Os slides serão atualizados conforme o curso vai acontecendo.
 
